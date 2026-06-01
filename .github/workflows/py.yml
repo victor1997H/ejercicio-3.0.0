@@ -48,8 +48,8 @@ jobs:
 
       - name: Construir imagen Docker
         run: |
-          docker build -t ghcr.io/victor1997H/ejercicio:3.0.0 .
+          docker build -t ghcr.io/victor1997h/ejercicio:3.0.0 .
 
       - name: Publicar imagen Docker
         run: |
-          docker push ghcr.io/victor1997H/ejercicio:3.0.0
+          docker push ghcr.io/victor1997h/ejercicio:3.0.0
